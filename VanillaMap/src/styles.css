@@ -1,0 +1,50 @@
+#map {
+    width: 100%;
+    height: calc(100vh - 20px);
+}
+
+#toggle-list {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    width: 200px;
+    padding: 0 17px;
+    cursor: pointer;
+    font-family: Roboto, Arial, sans-serif;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+}
+
+#filter-controls {
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+    padding: 0;
+}
+
+#checkbox-list {
+    margin: 10px;
+}
+
+.checkbox-container {
+    font-family: Roboto, Arial, sans-serif;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container > input[type="checkbox"] {
+    color: black;
+    user-select: none;
+    accent-color: black;
+}
